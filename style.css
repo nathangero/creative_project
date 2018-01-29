@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+}
+
+body.index, h1, h2 {
+    text-align: center;
+    font-family: Verdana;
+}
+
+ul.active {
+    position: relative;
+    left: 0;
+    width: 100%;
+    font-family: Verdana;
+    list-style-type: none;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+div {
+    /* text-align: center; */
+    font-family: Verdana;
+    font-size: 14px;
+    /* margin: auto;
+    float: left;
+    margin-left: 35em; */
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-family: Verdana;
+    display: block;
+    width: 150px;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+footer {
+    /* Puts the footer bar at the bottom of the page*/
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    clear: both;
+    width: 100%;
+
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.911)!important;
+    /* text-decoration: underline; */
+    font-family: Verdana;
+}
+
+
+
+#github {
+    color: black;
+}
+
+
+
+/* index.html */
+#frontpage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* about.html */
+#about {
+    display: block;
+    margin-left: auto;
+    margin-right: 120px;
+	width: 450px;
+	/* border: 25px #f1f1f1; */
+    background-color: #f1f1f1;
+    padding: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 1em;
+    margin-top: 7em;
+    float: right;
+}
+
+#aboutimg {
+    margin-top: 3em;
+
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width:540px; /* you can use % */
+    height: auto;
+    float: left;
+}
+
+/* portfolio.html */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+ .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ #portfoliofooter {
+     position: relative;
+     clear: both;
+
+ }
+
+/* reviews.html */
+div.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+dl {
+    margin-top: 2em;
+}
+
+dl dt {
+    /* use code from the About Me box and put it in here */
+    width: 450px;
+	/* border: 25px #f1f1f1; */
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 1em;
+    float: right;
+    font-style: italic;
+
+}
+
+dl dd {
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+/* contact.html */
+#contacttext {
+    margin-top: 4em;
+    font-family: Verdana;
+    text-align: center;
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 300px;
+    
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* To give the same size to all text fields */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+  
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* To give enough room to type some text */
+    height: 9em;
+
+    resize: none;
+    margin-top: 1em;
+
+}
+  
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: -.1em;
+    margin-top: 2em;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+}
