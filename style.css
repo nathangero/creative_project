@@ -50,7 +50,7 @@ nav li a {
 }
 
 .active {
-    background-color: dodgerblue;
+    background-color: #fe3939; 
     color: white;
 }
 
@@ -75,6 +75,11 @@ footer {
     font-family: Verdana;
 }
 
+#relativefooter {
+    position: relative;
+    clear: both;
+}
+
 
 
 #github {
@@ -97,25 +102,25 @@ footer {
 
 /* definitions.html */
 div.wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
 }
 
 dl {
     margin-top: 2em;
+    column-count: auto;
 }
 
 dl dt {
     /* use code from the About Me box and put it in here */
-    width: 450px;
-	/* border: 25px #f1f1f1; */
+    /* width: 450px; */
+	border: 25px #f1f1f1;
     background-color: #f1f1f1;
     padding: 10px;
     border-radius: 1em;
-    float: right;
-    font-style: italic;
+    float: left;
+    font-weight: bold;
 
 }
 
@@ -123,6 +128,8 @@ dl dd {
     float: right;
     margin-bottom: 20px;
 }
+
+
 
 /* songs.html */
 .grid-container {
@@ -139,11 +146,11 @@ dl dd {
     text-align: center;
  }
 
- #songfooter {
-     position: relative;
-     clear: both;
-
+ .grid-title {
+     font-size: 14px;
  }
+
+
 
 
 
