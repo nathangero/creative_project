@@ -18,6 +18,14 @@ ul.active {
     overflow: hidden;
 }
 
+#frontimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 500px;
+}
+
 div {
     /* text-align: center; */
     font-family: Verdana;
@@ -75,6 +83,8 @@ footer {
 
 
 
+
+
 /* index.html */
 #frontpage {
     display: block;
@@ -85,56 +95,7 @@ footer {
 
 
 
-/* about.html */
-#about {
-    display: block;
-    margin-left: auto;
-    margin-right: 120px;
-	width: 450px;
-	/* border: 25px #f1f1f1; */
-    background-color: #f1f1f1;
-    padding: 10px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-radius: 1em;
-    margin-top: 7em;
-    float: right;
-}
-
-#aboutimg {
-    margin-top: 3em;
-
-    display: block;
-    margin-left: 50px;
-    margin-right: auto;
-    width:540px; /* you can use % */
-    height: auto;
-    float: left;
-}
-
-/* portfolio.html */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* background-color: #2196F3; */
-    /* padding: 10px; */
-}
- .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
- }
-
- #portfoliofooter {
-     position: relative;
-     clear: both;
-
- }
-
-/* reviews.html */
+/* definitions.html */
 div.wrapper {
     display: block;
     margin-left: auto;
@@ -162,6 +123,28 @@ dl dd {
     float: right;
     margin-bottom: 20px;
 }
+
+/* songs.html */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+ .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ #songfooter {
+     position: relative;
+     clear: both;
+
+ }
+
 
 
 /* contact.html */
